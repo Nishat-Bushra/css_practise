@@ -1,0 +1,73 @@
+.ifram{
+  width: 100%;
+  height: 400px;
+}
+.red{
+  color: red;
+}
+.color{
+  color: green;
+}
+
+
+
+p.dotted {border-style: dotted; text-align: center;}
+p.dashed {border-style: dashed;text-align: center}
+p.solid {border-style: solid;text-align: center}
+p.double {border-style: double; text-align: center}
+p.groove {border-style: groove; text-align: center}
+p.ridge {border-style: ridge; text-align: center}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+body {
+  
+  background-color: lightblue;
+
+}
+body {
+  background-image: url("paper.gif");
+}
+
+div {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
